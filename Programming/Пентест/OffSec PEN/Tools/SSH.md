@@ -48,7 +48,7 @@ ssh {flags} username@host
 
 | Number of action                                        | Action                                | Result                                                                 |
 | ------------------------------------------------------- | ------------------------------------- | ---------------------------------------------------------------------- |
-| 1. Getting unique host key if we can use [[Identifying and exploring directory traversals]] method | [[Identifying and exploring directory traversals]]                               | We have host key that we can use later                                 |
+| 1. Getting unique host key if we can use [[Programming 1/Пентест/OffSec PEN/Pentest methods/Identifying and exploring directory traversals]] method | [[Programming 1/Пентест/OffSec PEN/Pentest methods/Identifying and exploring directory traversals]]                               | We have host key that we can use later                                 |
 | 2. Creating host key file                               | `mousepad dt_key`                     | Now we can try to connect to server via ssh using this host key file   |
 | 3. Connecting to server by ssh                          | `ssh -i dt_key -p 2222 username@host` | Now if host key correct we have all chances to connect to the server   |
 

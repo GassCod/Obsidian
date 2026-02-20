@@ -6,6 +6,8 @@ echo {some encrypted string} | base{number of base following table} -d
 
 `echo` - this shit is used to translate some string u write into console to machine code or easier it just helps to computer recognize string for example some sipher[^2] you wrote
 
+[[Json Web Tokens| One mor decription method]] - encoding to JWT tokens(usually in cookies)
+
 | **Encoding**             | **Identifying Features**                                                    | **Common Use**                                          |
 | ------------------------ | --------------------------------------------------------------------------- | ------------------------------------------------------- |
 | **Base16 (Hex)**         | Only numbers (0-9) and letters (A-F). Often starts with `0x`.               | Every day in CTFs. Usually looks like: `48 65 6c 6c 6f` |

